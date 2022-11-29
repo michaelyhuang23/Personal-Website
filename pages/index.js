@@ -23,7 +23,6 @@ export default function Home() {
       const data = await response.json();
       setResult(data.result.slice(6));
       setLoading(false);
-      
   }
 
   return (
